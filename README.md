@@ -5,16 +5,16 @@ test plugins. Neither plugin needs credentials, MCP servers, hooks, or scripts.
 
 | Plugin | Skill | Expected response |
 | --- | --- | --- |
-| `test-hello` | `test-hello-2` | `Hello from test-hello-2!` |
-| `test-checklist` | `test-checklist-2` | A four-item unchecked smoke-test checklist |
+| `test-hello-2` | `test-hello-2` | `Hello from test-hello-2!` |
+| `test-checklist-2` | `test-checklist-2` | A four-item unchecked smoke-test checklist |
 
 ## Install
 
 ```sh
 copilot plugin marketplace add taylorreis/plugin-marketplace-2
 copilot plugin marketplace browse test-marketplace-2
-copilot plugin install test-hello@test-marketplace-2
-copilot plugin install test-checklist@test-marketplace-2
+copilot plugin install test-hello-2@test-marketplace-2
+copilot plugin install test-checklist-2@test-marketplace-2
 copilot plugin list
 ```
 
@@ -27,7 +27,7 @@ without using tools or modifying files.
 From the repository root:
 
 ```sh
-copilot --plugin-dir ./plugins/test-hello --plugin-dir ./plugins/test-checklist
+copilot --plugin-dir ./plugins/test-hello-2 --plugin-dir ./plugins/test-checklist-2
 ```
 
 ## Layout
@@ -42,6 +42,6 @@ The catalog uses the relative-source layout demonstrated by
 ## Remove
 
 ```sh
-copilot plugin uninstall test-hello@test-marketplace-2
-copilot plugin uninstall test-checklist@test-marketplace-2
+copilot plugin uninstall test-hello-2@test-marketplace-2
+copilot plugin uninstall test-checklist-2@test-marketplace-2
 ```

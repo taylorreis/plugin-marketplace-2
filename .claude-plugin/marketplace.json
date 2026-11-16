@@ -9,16 +9,16 @@
   },
   "plugins": [
     {
-      "name": "test-hello",
+      "name": "test-hello-2",
       "description": "A minimal greeting skill for testing plugin loading.",
       "version": "1.0.0",
-      "source": "./plugins/test-hello"
+      "source": "./plugins/test-hello-2"
     },
     {
-      "name": "test-checklist",
+      "name": "test-checklist-2",
       "description": "A fixed smoke-test checklist for testing a second plugin.",
       "version": "1.0.0",
-      "source": "./plugins/test-checklist"
+      "source": "./plugins/test-checklist-2"
     }
   ]
 }
